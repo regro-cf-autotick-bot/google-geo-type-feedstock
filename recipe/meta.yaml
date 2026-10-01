@@ -1,13 +1,13 @@
 {% set name = "google-geo-type" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: f2d806f0c2024bc9dea265d60a9ef43d06092ddc65052e7953f353fa8e32619f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: a027843902f92e5effb0a6410fde456ea7c41c39573bebc339f5dfa22a76dea5
 
 build:
   noarch: python
